@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+  <link href="css/style-inner.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
 </head>
+
 <body>
   <header class="main-header">
     <div class="container">
       <div class="logo">
-        <a href="img/logo.png">
-            <img src="img/logo.png" width="140" height="40" alt="Nerds">
+        <a href="index.html">
+          <img src="img/nerds-logo.png" width="160" height="65" alt="Nerds">
         </a>
       </div>
-    <nav class="main-navigation">
-      <ul>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Клиенты</a></li>
-        <li><a href="#">Магазин</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
       <div class="user-block">
         <a class="basket" href="#">Корзина</a>
       </div>
@@ -30,35 +33,52 @@
     <aside class="left-side">
       <form action="#" method="post">
 
-      <h4>Стоимость:</h4>
-      <div class="slider">
-        <div class="line"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-      <div class="price">
-        <label>
-        от <input class="min-price" type="text" value="0">
-        </label>
-        <label>
-        до <input class="max-price" type="text" value="15 000">
-        </label>
-      </div>
+        <h4>Стоимость:</h4>
+        <div class="slider">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <div class="price">
+          <label>
+            от
+            <input class="min-price" type="text" value="0">
+          </label>
+          <label>
+            до
+            <input class="max-price" type="text" value="15 000">
+          </label>
+        </div>
 
-      <h4>Сетка:</h4>
-        <label><input type="radio" name="toggle" checked>Адаптивная</label><br>
-        <label><input type="radio" name="toggle">Фиксированная</label><br>
-        <label><input type="radio" name="toggle">Резиновая</label>
+        <h4>Сетка:</h4>
+        <label>
+          <input type="radio" name="toggle" checked>Адаптивная</label>
+        <br>
+        <label>
+          <input type="radio" name="toggle">Фиксированная</label>
+        <br>
+        <label>
+          <input type="radio" name="toggle">Резиновая</label>
 
-      <h4>Особенности:</h4>
-        <label><input type="checkbox" checked>Слайдер</label><br>
-        <label><input type="checkbox">Блок преимуществ</label><br>
-        <label><input type="checkbox" checked>Новости</label><br>
-        <label><input type="checkbox">Галерея</label><br>
-        <label><input type="checkbox">Корзина</label><br>
+        <h4>Особенности:</h4>
+        <label>
+          <input type="checkbox" checked>Слайдер</label>
+        <br>
+        <label>
+          <input type="checkbox">Блок преимуществ</label>
+        <br>
+        <label>
+          <input type="checkbox" checked>Новости</label>
+        <br>
+        <label>
+          <input type="checkbox">Галерея</label>
+        <br>
+        <label>
+          <input type="checkbox">Корзина</label>
+        <br>
 
         <input type="submit" value="Показать">
-        </form>
+      </form>
     </aside>
     <section class="catalog">
 
@@ -67,12 +87,12 @@
         <a class="sort" href="#">По цене</a>
         <a class="sort" href="#">По типу</a>
         <a class="sort" href="#">По названию</a>
-          <a class="pointer" href="#">1</a>
-          <a class="pointer" href="#">2</a>
+        <a class="pointer pointer-active" href="#">1</a>
+        <a class="pointer" href="#">2</a>
       </div>
 
       <div class="catalog-items">
-        <img src="img/catalog-item1.png" alt="catalog image" width="250" height="400">
+        <img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
         <div class="info">
           <h4>SEDONA</h4>
           <p>Информационный сайт для туристов</p>
@@ -81,10 +101,10 @@
       </div>
 
       <div class="pages">
-        <a class="page-active">1</a>
+        <a class="page page-active">1</a>
         <a href="#" class="page">2</a>
         <a href="#" class="page">3</a>
-        <a href="#" class="next">СЛЕДУЮЩАЯ</a>
+        <a href="#" class="next">Следующая</a>
       </div>
     </section>
   </main>
@@ -92,9 +112,10 @@
   <div class="container">
     <div class="contact">
       <h4>NERDS DESIGN STUDIO</h4>
-        <p>191186, Санкт-Петербург,<br> ул. Б.Конюшенная, д. 19/8</p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <a class="btn" href="#">Напишите нам</a>
+      <p>191186, Санкт-Петербург,
+        <br> ул. Б.Конюшенная, д. 19/8</p>
+      <p>тел. +7 (812) 275-75-75</p>
+      <a class="btn" href="#">Напишите нам</a>
     </div>
   </div>
 
@@ -112,5 +133,5 @@
     </div>
   </footer>
 </body>
-</html>
 
+</html>
