@@ -2,18 +2,19 @@
 <html lang="ru">
 
 <head>
-  <link href="css/style-index.css" rel="stylesheet">
-  <meta charset="utf-8">
-  <title>HTML Academy: Нёрдс</title>
+	<meta charset="utf-8">
+	<title>Дизайн-студия nёrd's</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
-      <div class="logo">
-        <a href="index.html">
+     <div class="container">
+        <a class="logo" href="index.html">
           <img src="img/nerds-logo.png" width="160" height="65" alt="Nerds">
         </a>
-      </div>
       <nav class="main-navigation">
         <ul>
           <li><a href="#">Студия</a></li>
@@ -27,10 +28,15 @@
       </div>
       <div class="slides">
         <div class="slide">
-          <h1 class="slide-title">Долго, дорого, скрупулезно.</h1>
-          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-          <a class="btn" href="#">Узнать больше</a>
+          <h1 class="slide-title">Долго, дорого,<br> скрупулезно.</h1>
+          <p class="slide-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+          <a class="btn slide-btn" href="#">Узнать больше</a>
+          <div class="slide-img">
+		    <img src="img/slider-1.jpg" alt="slide1" height="431" width="760">
+		  </div>
         </div>
+
+<!--
         <div class="slide">
           <h1 class="slide-title">Любим метематику как никто другой</h1>
           <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
@@ -41,32 +47,38 @@
           <p>Работать днем, как все? Мы против этого. Ближе к получночи работа только начинается.</p>
           <a class="btn" href="#">Узнать больше</a>
         </div>
+-->
+
+      </div>
       </div>
   </header>
 
   <main class="container">
     <section class="services">
       <div class="services-item">
+        <img src="img/illustration-1.jpg" alt="illustration-1" height="146" width="300">
         <h3 class="services-name">Веб-сайты</h3>
         <p>Мир никогда не будет прежним после того как увидит наш сайт!</p>
-        <a class="btn" href="#">Заказать</a>
+        <a class="btn services-btn1" href="#">Заказать</a>
       </div>
       <div class="services-item">
+        <img src="img/illustration-2.jpg" alt="illustration-2" height="146" width="300">
         <h3 class="services-name">Приложения</h3>
         <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-        <a class="btn" href="#">Заказать</a>
+        <a class="btn services-btn2" href="#">Заказать</a>
       </div>
       <div class="services-item">
+        <img src="img/illustration-3.jpg" alt="illustration-3" height="146" width="300">
         <h3 class="services-name">Презентации</h3>
         <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-        <a class="btn" href="#">Заказать</a>
+        <a class="btn services-btn3" href="#">Заказать</a>
       </div>
     </section>
 
     <div class="features">
       <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива.Работаем не покладая рук, как роботы.</p>
-      <h4 classs="features-title">Выполняем заказы на разработку:</h4>
+      <h4 class="features-title">Выполняем заказы на разработку:</h4>
       <ul class="features-list">
         <li>Веб-сайтов любой сложности</li>
         <li>Мобильных приложений для IOS и Android</li>
@@ -75,6 +87,7 @@
     </div>
 
     <div class="index">
+      <img src="img/nerds-illustration.jpg" alt="nerds" height="208" width="360">
       <h4>С 2004 года любим точность во всем:</h4>
       <ul class="index-number">
         <li>
@@ -98,17 +111,17 @@
       <a class="pink" href="#"></a>
       <a class="mishka" href="#"></a>
     </div>
-
   </main>
 
   <div class="container">
-    <div class="contact">
-      <h4>NERDS DESIGN STUDIO</h4>
-      <p>191186, Санкт-Петербург,
+    <div class="map"></div>
+      <div class="contact">
+        <h4>Nerds design studio</h4>
+        <p>191186, Санкт-Петербург,
         <br> ул. Б.Конюшенная, д. 19/8</p>
-      <p>тел. +7 (812) 275-75-75</p>
-      <a class="btn" href="#">Напишите нам</a>
-    </div>
+        <p>тел. +7 (812) 275-75-75</p>
+        <a class="btn contact-btn" href="#">Напишите нам</a>
+      </div>
   </div>
 
   <footer class="main-footer">

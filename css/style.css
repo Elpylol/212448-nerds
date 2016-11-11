@@ -1,0 +1,410 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  min-height: 2476px;
+  min-width: 1440px;
+}
+
+.main-header {
+  min-height: 545px;
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  width: 160px;
+  line-height: 0;
+  margin-top: 50px;
+  margin-bottom: 85px;
+}
+
+.main-navigation {
+  float: left;
+  width: 440px;
+  font-size: 0px;
+  margin-left: 200px;
+}
+
+.main-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+  margin-top: 75px;
+}
+
+.main-navigation a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.main-navigation a:hover {
+  color: #fb565a;
+}
+
+.main-navigation a:active {
+	color: #bdbdbd;
+}
+
+.user-block {
+  position: relative;
+  float: right;
+  width: 160px;
+  text-align: right;
+  margin-top: 77px;
+}
+
+.basket::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 55px;
+
+  width: 15px;
+  height: 15px;
+
+  background: transparent url(../img/cart-icon.png) no-repeat;
+  opacity: 0.3;
+}
+
+.basket:hover::before {
+  opacity: 1;
+}
+
+.user-block a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.user-block a:hover {
+	color: #fb565a;
+}
+.user-block a:active {
+	color: #bdbdbd;
+}
+
+.slides {
+  clear: both;
+}
+
+.slide-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.slide {
+  display: block;
+  vertical-align: top;
+  position: relative;
+}
+
+.slide-text {
+  display: block;
+  margin-top: ;
+}
+
+
+.slide-img {
+  position: absolute;
+  right: 10px;
+  top: -93px;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #fb565a;
+  font-weight: 400px;
+  line-height: 18px;
+  border-radius: 3px;
+}
+
+.slide-btn {
+  padding: 19px 53px;
+  margin-top: 15px;
+}
+
+/* Основная часть */
+.services {
+  font-size: 0;
+  margin: 80px 0;
+}
+
+.services-item h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 26px;
+}
+
+.services-item p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.services-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 100px;
+}
+
+.services-item:first-child {
+  margin-left: 0;
+}
+
+
+.services-btn1 {
+  margin-top: 30px;
+  padding: 19px 39px;
+}
+
+.services-btn2 {
+  margin-top: 30px;
+  padding: 19px 39px;
+  background-color: #00ca74;
+}
+
+.services-btn3 {
+  margin-top: 30px;
+  padding: 19px 39px;
+  background-color: #efc84a;
+}
+
+.features {
+  float: left;
+  width: 660px;
+}
+
+.features h2 {
+  margin: 0;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 400px;
+}
+
+.features p {
+  margin: 45px 0;
+}
+
+.features-title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.features-list {
+  list-style: none;
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+  padding-left: 37px;
+  margin-bottom: 76px;
+}
+
+.features-list li {
+  position: relative;
+  margin-top: 32px;
+}
+
+.features-list li::after {
+  content: "";
+  position: absolute;
+  left: -36px;
+  top: 12px;
+  width: 25px;
+
+  background-color: wheat;
+  border-top: 2px solid #fb565a;
+}
+
+.index {
+  float: right;
+  width: 360px;
+}
+
+.index img {
+  margin-bottom: 28px;
+}
+
+.index h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.index ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.index li {
+  display: inline-block;
+  width: 120px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+
+.index b {
+  font-size: 45px;
+  line-height: 10.06px;
+}
+
+.copyrights {
+  clear: both;
+  font-size: 0;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+}
+
+.copyrights a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 290px;
+  height: 180px;
+}
+
+.htmlacademy {
+  background: url(../img/logo-1.png) no-repeat center;
+}
+
+.borodinski {
+  background: url(../img/logo-2.png) no-repeat center;
+}
+
+.pink {
+  background: url(../img/logo-3.png) no-repeat center;
+}
+
+.mishka {
+  background: url(../img/logo-4.png) no-repeat center;
+}
+
+.contact {
+  float: left;
+  vertical-align: top;
+  width: 270px;
+  height: 268px;
+  background: white;
+  padding-top: 44px;
+  padding-left: 50px;
+  margin-top: -370px;
+}
+
+.contact h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.contact-btn {
+  margin-top: 40px;
+  padding: 18px 45px;
+}
+
+.map {
+  background: url(../img/map-marker.jpg) no-repeat 50% 41%;
+  width: 1440px;
+  height: 420px;
+  margin-left: -140px;
+  margin-top: 82px;
+}
+
+.main-footer {
+  clear: both;
+}
+
+.footer-social {
+  float: left;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.social-btn {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  width: 80px;
+  height: 80px;
+  background-color: #e1e1e1;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50px;
+  margin-top: 69px;
+  margin-right: 12px;
+}
+
+.social-btn-vk {
+  background-image: url(../img/vk-icon.png);
+}
+
+.social-btn-fb {
+  background-image: url(../img/fb-icon.png);
+}
+
+.social-btn-inst {
+  background-image: url(../img/insta-icon.png);
+}
+
+.footer-logo {
+  float: right;
+  width: 760px;
+  text-align: left;
+  margin-top: 76px;
+}
+
+.footer-title {
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.footer-logo p {
+  font-size: 16px;
+  line-height: 22px;
+}
