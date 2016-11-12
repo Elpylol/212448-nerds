@@ -31,6 +31,14 @@ body {
   margin-bottom: 85px;
 }
 
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.3;
+}
+
 .main-navigation {
   float: left;
   width: 440px;
@@ -150,6 +158,15 @@ body {
   border-radius: 3px;
 }
 
+.btn:hover {
+  background-color: #e74246;
+}
+
+.btn:active {
+  background-color: #d7373b;
+  opacity: ;
+}
+
 .slide-btn {
   padding: 19px 53px;
   margin-top: 15px;
@@ -200,10 +217,26 @@ body {
   background-color: #00ca74;
 }
 
+.services-btn2:hover {
+  background-color: #00bc6c;
+}
+
+.services-btn2:active {
+  background-color: #00aa62;
+}
+
 .services-btn3 {
   margin-top: 30px;
   padding: 19px 39px;
   background-color: #efc84a;
+}
+
+.services-btn3:hover {
+  background-color: #eab534;
+}
+
+.services-btn3:active {
+  background-color: #e5a722;
 }
 
 .features {
@@ -300,6 +333,15 @@ body {
   vertical-align: middle;
   width: 290px;
   height: 180px;
+  opacity: 0.2;
+}
+
+.copyrights a:hover {
+  opacity: 1;
+}
+
+.copyrights a:active {
+  opacity: 0.1;
 }
 
 .htmlacademy {
