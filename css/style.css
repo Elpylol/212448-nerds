@@ -406,6 +406,81 @@ sup {
   margin-top: 82px;
 }
 
+/*Popup*/
+
+.popup {
+  display: none;
+  width: 960px;
+  min-height: 560px;
+  box-shadow: 0 20px 35px #626363;
+}
+
+.popup::before {
+  content: "";
+  float: right;
+  width: 21px;
+  height: 21px;
+  background-image: url(../img/close-cross.png);
+  margin-top: 73px;
+  margin-right: 90px;
+  opacity: 0.3;
+}
+
+.popup:hover::before {
+  opacity: 1;
+}
+
+.popup:active::before {
+  opacity: 0.1;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+  margin-bottom: 36px;
+}
+
+.popup-title {
+  display: inline-block;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  margin-top: 73px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+.popup form {
+  margin-left: 100px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.popup input[type="text"],
+.popup textarea,
+.popup input[type="email"] {
+  width: 326px;
+  padding: 16px 15px;
+  border: 2px solid #d7dcde;
+  border-radius: 3px;
+  color: rgba(68, 68, 68, 0.5);
+}
+
+.popup textarea {
+  width: 726px;
+  margin-bottom: 48px;
+}
+
+.popup-btn {
+  padding: 16px 82px;
+}
+
 .main-footer {
   clear: both;
   padding-top: 76px;
