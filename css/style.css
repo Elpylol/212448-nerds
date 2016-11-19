@@ -27,10 +27,12 @@ body {
 
 .main-header {
   background-color: #eeeeee;
+  min-width: 1200px;
 }
 
 .container {
   width: 1160px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -119,6 +121,7 @@ body {
 }
 
 .main-slider {
+  clear: both;
   position: relative;
   width: 1160px;
   min-height: 431px;
@@ -176,7 +179,6 @@ body {
 }
 
 .slide {
-  clear: both;
   display: block;
   vertical-align: top;
   padding: 80px 0;
@@ -249,8 +251,10 @@ body {
 
 .services {
   font-size: 0;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
+  padding-bottom: 78px;
   margin-top: 80px;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .services-item h3 {
@@ -264,7 +268,9 @@ body {
 
 .services-item p {
   margin: 0;
+  width: 250px;
   margin-top: 15px;
+  margin-bottom: 2px;
 }
 
 .services-item {
@@ -281,12 +287,12 @@ body {
 
 .services-btn1 {
   margin-top: 30px;
-  padding: 18px 40px;
+  padding: 16px 40px 16px 42px;
 }
 
 .services-btn2 {
   margin-top: 30px;
-  padding: 18px 40px;
+  padding: 16px 40px 16px 42px;
   background-color: #00ca74;
 }
 
@@ -300,7 +306,7 @@ body {
 
 .services-btn3 {
   margin-top: 30px;
-  padding: 18px 40px;
+  padding: 16px 40px 16px 42px;
   background-color: #efc84a;
 }
 
@@ -324,6 +330,7 @@ body {
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
+  word-spacing: 4px;
 }
 
 .features p {
@@ -440,7 +447,7 @@ sup {
   float: left;
   vertical-align: top;
   width: 270px;
-  height: 268px;
+  height: 260px;
   background: white;
   padding-top: 48px;
   padding-left: 50px;
@@ -449,6 +456,7 @@ sup {
 
 .contact h4 {
   margin: 0;
+  margin-bottom: 25px;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
@@ -457,18 +465,19 @@ sup {
 .contact p {
   font-size: 16px;
   line-height: 18px;
-  margin-top: 25px;
+  margin-bottom: 17px;
 }
 
 .contact-btn {
-  margin-top: 10px;
-  padding: 18px 45px;
+  margin-top: 18px;
+  padding: 18px 45px 16px;
 }
 
 .map {
   background: url(../img/map-marker.jpg) no-repeat 50% 41%;
+  min-width: 1200px;
   width: 100%;
-  height: 420px;
+  height: 418px;
 }
 
 
@@ -476,10 +485,6 @@ sup {
 
 .popup.active {
   transform: translate(-50%, -50%);
-}
-
-.popup.close {
-  transform: translate(-50%, -500%);
 }
 
 .popup {
@@ -509,7 +514,7 @@ sup {
 }
 
 .cross-close:active {
-  0.1;
+  opacity: 0.1;
 }
 
 .popup:hover::before {
@@ -571,8 +576,8 @@ sup {
 
 .main-footer {
   clear: both;
-  padding-top: 73px;
-  padding-bottom: 68px;
+  padding-top: 65px;
+  padding-bottom: 50px;
 }
 
 .footer-social {
@@ -585,8 +590,8 @@ sup {
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
-  width: 80px;
-  height: 80px;
+  width: 78px;
+  height: 78px;
   background-color: #e1e1e1;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -606,6 +611,18 @@ sup {
   background-image: url(../img/insta-icon.png);
 }
 
+.social-btn-vk:active {
+    background-image: url(../img/vk-icon2.png);
+}
+
+.social-btn-fb:active {
+    background-image: url(../img/fb-icon2.png);
+}
+
+.social-btn-inst:active {
+    background-image: url(../img/inst-icon2.png);
+}
+
 .social-btn:hover {
   background-color: #e74246;
 }
@@ -619,6 +636,7 @@ sup {
   float: right;
   width: 760px;
   text-align: left;
+  margin-top: 10px;
 }
 
 .footer-title {
@@ -626,6 +644,7 @@ sup {
   margin: 0;
   font-size: 36px;
   line-height: 36px;
+  word-spacing: 4px;
 }
 
 .footer-logo p {
@@ -658,12 +677,21 @@ sup {
 }
 
 .line {
-  width: 220px;
+  width: 151px;
   height: 2px;
   position: absolute;
   top: 39px;
   left: 20px;
   background-color: #00ca74;
+}
+
+.line2 {
+  width: 68px;
+  height: 2px;
+  position: absolute;
+  top: 39px;
+  right: 21px;
+  background-color: #d7dcde;
 }
 
 .dot {
@@ -682,7 +710,7 @@ sup {
   height: 3px;
   border-radius: 50%;
   position: absolute;
-  background-color: red;
+  background-color: #d7dcde;
   top: 9px;
   left: 9px;
 }
@@ -703,7 +731,7 @@ sup {
   height: 3px;
   border-radius: 50%;
   position: absolute;
-  background-color: red;
+  background-color: #d7dcde;
   top: 9px;
   left: 9px;
 }
@@ -732,14 +760,18 @@ sup {
 .min-price,
 .max-price {
   width: 60px;
+  margin-left: 7px;
   padding: 8px 10px;
-  margin-right: px;
   border: none;
   background: #f1f1f1;
   font-style: normal;
   text-align: center;
   color: #283136;
   border-radius: 5px;
+}
+
+.max {
+  margin-left: 28px;
 }
 
 input[type="radio"] {
@@ -760,7 +792,10 @@ input[type="radio"] + label {
 }
 
 input[type="radio"] + label:hover::before {
-  background: url(../img/radio-off.png%20copy.png) no-repeat;
+  background: url(../img/main-sprite.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: -10px -514px;
 }
 
 input[type="radio"] + label::before {
@@ -774,15 +809,15 @@ input[type="radio"] + label::before {
   left: 0;
 }
 
-input[type="radio"]:checked + label::after {
+input[type="radio"]:checked + label::before {
   content: "";
-  width: 9px;
-  height: 9px;
-  background-color: #b8b8b8;
-  border-radius: 50%;
+  background-image: url(../img/main-sprite.png);
+  width: 25px;
+  height: 25px;
+  background-position: -10px -469px;
   position: absolute;
-  top: 7px;
-  left: 8px;
+  top: 0;
+  left: 0;
 }
 
 .checkbox-input {
@@ -812,7 +847,7 @@ input[type="checkbox"] + label::before {
   left: 0;
 }
 
-input[type="checkbox"]:checked + label::after {
+input[type="checkbox"]:checked + label::before {
   content: "";
   position: absolute;
   width: 27px;
@@ -823,14 +858,16 @@ input[type="checkbox"]:checked + label::after {
 }
 
 input[type="checkbox"] + label:hover::before {
-  background: url(../img/checkbox-off.png%20copy.png) no-repeat;
+  background: url(../img/checkbox-on.png%20copy.png) no-repeat;
+  width: 27px;
+  height: 23px;
 }
 
 .btn-submit {
   padding: 16px 88px;
   font-size: 16px;
   line-height: 18px;
-  font-weight: med;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   border: none;
@@ -995,15 +1032,14 @@ input[type="checkbox"] + label:hover::before {
 
 .pages {
   clear: both;
-  padding-bottom: 5px;
-  margin-bottom: 50px;
-  margin-top: 25px;
+  margin-bottom: 60px;
+  margin-top: 29px;
 }
 
 .page {
   display: inline-block;
   vertical-align: top;
-  padding: 16px 20px;
+  padding: 12px 17px;
   margin-right: 8px;
   font-size: 16px;
   line-height: 18px;
@@ -1014,6 +1050,10 @@ input[type="checkbox"] + label:hover::before {
   border-radius: 3px;
   color: black;
   background: #eeeeee;
+}
+
+.page-next {
+  padding: 12px 75px;
 }
 
 .pages .page-active {

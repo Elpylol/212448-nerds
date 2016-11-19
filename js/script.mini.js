@@ -1,0 +1,1 @@
+var btn=document.querySelector(".contact-btn"),popup=document.querySelector(".popup"),close=document.querySelector(".cross-close");btn.addEventListener("click",function(a){a.preventDefault(),popup.classList.add("active")}),close.addEventListener("click",function(a){a.preventDefault(),popup.classList.remove("active")});

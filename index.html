@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Дизайн-студия nёrd's</title>
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.mini.css" rel="stylesheet">
 </head>
 
 <body>
@@ -162,21 +162,6 @@
       </div>
     </div>
   </footer>
-  <script>
-    var btn = document.querySelector(".contact-btn");
-    var popup = document.querySelector(".popup");
-    var close = document.querySelector(".cross-close");
-
-    btn.addEventListener("click", function (event) {
-      event.preventDefault();
-      popup.classList.add("active");
-    });
-
-    close.addEventListener("click", function (event) {
-      event.preventDefault();
-      popup.classList.add("close");
-    });
-  </script>
+  <script src="js/script.mini.js"></script>
 </body>
-
 </html>
