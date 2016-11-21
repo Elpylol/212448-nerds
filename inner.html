@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Каталог-магазина</title>
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <ul>
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li><a class="active-item">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
@@ -44,10 +44,10 @@
         </div>
         <div class="price">
           <label>от
-            <input class="min-price" type="text" value="0">
+            <input class="min-price" type="text" value="0" readonly>
           </label>
           <label class="max">до
-            <input class="max-price" type="text" value="15 000">
+            <input class="max-price" type="text" value="15 000" readonly>
           </label>
         </div>
 
@@ -66,16 +66,12 @@
         <div class="checkbox-input">
           <input id="checkbox-1" type="checkbox" checked>
           <label for="checkbox-1">Слайдер</label>
-          <br>
           <input id="checkbox-2" type="checkbox">
           <label for="checkbox-2">Блок преимуществ</label>
-          <br>
           <input id="checkbox-3" type="checkbox" checked>
           <label for="checkbox-3">Новости</label>
-          <br>
           <input id="checkbox-4" type="checkbox">
           <label for="checkbox-4">Галерея</label>
-          <br>
           <input id="checkbox-5" type="checkbox">
           <label for="checkbox-5">Корзина</label>
         </div>
@@ -102,7 +98,7 @@
         <div class="catalog-item">
           <img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
           <div class="info">
-            <h4>Sedona</h4>
+            <a class="catalog-a" href="#">Sedona</a>
             <p>Информационный сайт для туристов</p>
             <a href="#" class="btn">9 900 РУБ.</a>
           </div>
@@ -110,7 +106,7 @@
         <div class="catalog-item">
           <img src="img/img-pink.jpg" alt="Pink" width="360" height="576">
           <div class="info">
-            <h4>Pink app</h4>
+            <a class="catalog-a" href="#">Pink app</a>
             <p>Продуктовый лендинг приложения для ios и Android</p>
             <a href="#" class="btn">9 900 РУБ.</a>
           </div>
@@ -118,7 +114,7 @@
         <div class="catalog-item">
           <img src="img/img-barbershop.jpg" alt="Barbershop" width="360" height="576">
           <div class="info">
-            <h4>Barbershop</h4>
+            <a class="catalog-a" href="#">Barbershop</a>
             <p>Сайт салона красоты. Для мужчин, да.</p>
             <a href="#" class="btn">9 900 РУБ.</a>
           </div>
@@ -126,7 +122,7 @@
         <div class="catalog-item">
           <img src="img/img-mishka.jpg" alt="Mishka" width="360" height="576">
           <div class="info">
-            <h4>Mishka</h4>
+            <a class="catalog-a" href="#">Mishka</a>
             <p>Интернет-магазин вязаных игрушек</p>
             <a href="#" class="btn">9 900 РУБ.</a>
           </div>
@@ -134,7 +130,7 @@
         <div class="catalog-item">
           <img src="img/img-aplus.jpg" alt="Aplus" width="360" height="576">
           <div class="info">
-            <h4>A plus</h4>
+            <a class="catalog-a" href="#">A plus</a>
             <p>Лендинг курсов повышения квалификации</p>
             <a href="#" class="btn">9 900 РУБ.</a>
           </div>
@@ -142,7 +138,7 @@
         <div class="catalog-item">
           <img src="img/img-kvast.jpg" alt="Kvast" width="360" height="576">
           <div class="info">
-            <h4>Кваст</h4>
+            <a class="catalog-a" href="#">Кваст</a>
             <p>Промо-сайт производителя крафтового кваса</p>
             <a href="#" class="btn">9 900 РУБ.</a>
           </div>
@@ -186,7 +182,7 @@
       <label for="text-area">Текст письма:</label>
       <textarea name="text" id="text-area" rows="4" placeholder="В свободной форме"></textarea>
 
-      <input class="btn popup-btn" type="submit" value="Отправить">
+      <input class="btn popup-btn" href="form.html" type="submit" value="Отправить">
     </form>
   </div>
 
@@ -198,12 +194,13 @@
         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
       </section>
       <div class="footer-logo">
-        <h3 class="footer-title">Давайте дружить, это выгодно!</h3>
+        <div class="footer-title">Давайте дружить, это выгодно!</div>
         <p>Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </div>
   </footer>
-  <script src="js/script.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP-LdTgjqwqP5aauCZMVSgdZWfIWUosBw&callback=initMap" async defer></script>
 </body>
 
 </html>
