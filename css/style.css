@@ -258,7 +258,7 @@ body {
 .services {
   font-size: 0;
   margin-bottom: 40px;
-  padding-bottom: 75px;
+  padding-bottom: 55px;
   margin-top: 80px;
   border-bottom: 2px solid #eeeeee;
 }
@@ -285,9 +285,10 @@ body {
   width: 300px;
   font-size: 16px;
   margin-left: 100px;
+  margin-bottom: 20px
 }
 
-.services-item:first-child {
+.services-item:nth-child(3n+1) {
   margin-left: 0;
 }
 
@@ -398,7 +399,7 @@ body {
   position: absolute;
   width: 2px;
   height: 52px;
-  background: url(../img/div.png) no-repeat;
+  background-color: #eeeeee;
   top: 275px;
   left: 80px;
 }
@@ -441,7 +442,7 @@ sup {
   position: absolute;
   width: 2px;
   height: 52px;
-  background: url(../img/div.png) no-repeat;
+  background-color: #eeeeee;
   top: 64px;
   left: 279px;
 }
@@ -451,7 +452,7 @@ sup {
   position: absolute;
   width: 2px;
   height: 52px;
-  background: url(../img/div.png);
+  background-color: #eeeeee;
   top: 64px;
   left: 580px;
 }
