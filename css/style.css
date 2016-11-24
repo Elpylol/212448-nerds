@@ -488,10 +488,13 @@ sup {
   height: 418px;
 }
 
+.map > .container {
+  position: relative;
+}
+
 .contact {
   position: absolute;
-  top: 0;
-  left: 100px;
+  top: -418px;
   width: 270px;
   height: 260px;
   background: white;
@@ -520,7 +523,6 @@ sup {
 }
 
 .map {
-  position: relative;
   background: #f1efe8 url(../img/map-marker.jpg) no-repeat 50% 41%;
   min-width: 1200px;
   width: 100%;
