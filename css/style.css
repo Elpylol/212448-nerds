@@ -484,9 +484,14 @@ sup {
   background: url(../img/logo-4.png) no-repeat 75px 50px;
 }
 
+.google-map {
+  height: 418px;
+}
+
 .contact {
-  float: left;
-  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 100px;
   width: 270px;
   height: 260px;
   background: white;
@@ -515,6 +520,7 @@ sup {
 }
 
 .map {
+  position: relative;
   background: #f1efe8 url(../img/map-marker.jpg) no-repeat 50% 41%;
   min-width: 1200px;
   width: 100%;
